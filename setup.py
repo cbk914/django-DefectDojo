@@ -63,7 +63,7 @@ setup(
         'pandas>=0.22.0',
         'django-dbbackup>=3.2.0',
         'django-taggit-serializer==0.1.7',
-        'whitenoise==4.0',
+        'whitenoise==5.2.0',
         'django-environ==0.4.5',
         'titlecase'
     ],
