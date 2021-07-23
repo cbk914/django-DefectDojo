@@ -9,7 +9,7 @@ setup(
     description="Tool for managing vulnerability engagements",
     install_requires=[
         'defusedxml',
-        'Django==2.2.13',
+        'Django==3.2.5',
         'django-auditlog==0.4.0',
         'django-custom-field',
         'django-filter==1.0.4',
@@ -68,7 +68,7 @@ setup(
         'titlecase'
     ],
 
-    extras_require={'mysql': ['mysqlclient==1.3.12']},
+    extras_require={'mysql': ['mysqlclient==2.0.3']},
 
     dependency_links=[
         "https://github.com/grendel513/python-pdfkit/tarball/master#egg=pdfkit-0.5.0"
